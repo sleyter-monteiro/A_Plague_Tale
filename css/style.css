@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #21242C;
+  
+}
+
+
+
+header {
+	width: 100%;
+	height: 175px;
+}
+
+#logo {
+	width: 25%;
+    float: left;
+	padding-bottom: 30px;
+    /* marge intérieure de l'élément padding = rembourrage */
+    /* l'aspect de la boite */
+}
+
+
+
+#aplague { /* on ne cible que cette image, on la trouve par son chemin dans le fichier html */
+	display: block;
+	padding-bottom: 60px;
+	margin: auto;
+	width: 35%;
+}
+
+
+
+main {
+  box-sizing: border-box;
+  border: solid #D0A718 10px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 15px;
+}
+
+<<<<<<< HEAD
+ 
+#iframe
+{
+width:100%;
+height:100%;
+ 
+display:table-cell;
+ 
+}
+
+.start {
+=======
+iframe {
+>>>>>>> parent of cb71275 (video)
+  display: block;
+  align-items: center;
+}
+
+section {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+
+
+a   {
+    text-decoration: none;
+  }
+
+h2 {
+  padding: 50px;
+}
+
+
+footer {
+    background-color: blue;
+    text-align: center;
+}
