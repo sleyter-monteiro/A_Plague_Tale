@@ -47,21 +47,7 @@ p {
   padding: 15px;
 }
 
-<<<<<<< HEAD
- 
-#iframe
-{
-width:100%;
-height:100%;
- 
-display:table-cell;
- 
-}
-
-.start {
-=======
 iframe {
->>>>>>> parent of cb71275 (video)
   display: block;
   align-items: center;
 }
