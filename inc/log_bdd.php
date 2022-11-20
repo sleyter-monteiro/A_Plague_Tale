@@ -7,7 +7,7 @@
 
     // Retourne une instance de PDO. La signature de la fonction getInstancePDO implique que l'objet doit être nécessairement de type PDO
     // Sinon une erreur sera levée
-    $pdoPF = new PDO('mysql:host='.$host.';dbname='.$database,$user,$psw,
+    $pdo_a_plague = new PDO('mysql:host='.$host.';dbname='.$database,$user,$psw,
     array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING,// pour afficher les warnings SQL dans le navigateur
     PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',// pour définir le charset des échanges avec la BDD

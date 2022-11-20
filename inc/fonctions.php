@@ -8,9 +8,9 @@ var_dump($mavar);// à cette variable on applique le fonction var_dump()
 function executeRequete($requete, $parametres = array()) {  // utile pour toutes les requêtes 1 la requête 2 
     foreach ($parametres as $indice => $valeur) { // boucle foreach
         $parametres[$indice] = htmlspecialchars($valeur); // pour éviter les injections SQL
-        global $pdoPF; // * global  "nous permet d'acceder à la variable $pdoPF dans l'espace global du fichier log_bdd.php"
+        global $pdo_a_plague; // * global  "nous permet d'acceder à la variable $pdoPF dans l'espace global du fichier log_bdd.php"
 
-        $resultat = $pdoPF->prepare($requete); //prepare la requete
+        $resultat = $pdo_a_plague->prepare($requete); //prepare la requete
         $contact = $resultat->execute($parametres); //et execute
 
         if ($contact === false ) { 
