@@ -378,7 +378,7 @@ if (!empty($_POST)) {
   <section id="boutique" class="container">
 
 	<h3>Achetez le Jeu</h3>
-	<h5>Disponible sur toutes sur PC !</h5>
+	<h5>Disponible sur PC !</h5>
 	<br>
 
 	<div class="row">
