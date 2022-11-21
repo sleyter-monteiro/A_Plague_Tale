@@ -487,7 +487,7 @@ if (!empty($_POST)) {
 			<p><i class="fa-solid fa-triangle-exclamation"></i> Ce site est une fan conception réalisé par des étudiants dans le cadre de leur pédagogie et il n'est donc pas officiel. <i class="fa-solid fa-triangle-exclamation"></i><br> Je vous invite à vous rendre sur la page officiel du Jeu<a href="https://www.focus-entmt.com/fr/games/a-plague-tale-innocence" target="_blank" style="text-decoration: none;" rel="nofollow"> Focus Entertainement</a></p>
 
 
-			<img src="img/guardia-logo-208x200.png.webp" alt="Logo de Guardia"/>
+			<!-- <img src="img/guardia-logo-208x200.png.webp" alt="Logo de Guardia"/> -->
 		</footer>
 	</body>
 
