@@ -63,12 +63,20 @@ a   {
     text-decoration: none;
   }
 
+ul {
+  text-decoration: none;
+}  
+
 h2 {
   padding: 50px;
 }
 
 .xbox {
   margin: 50px;
+}
+
+.reseau {
+  padding: 20px;
 }
 
 footer {
