@@ -1,8 +1,11 @@
 <?php  
-    require_once 'inc/log_bdd.php';
-	require_once 'inc/fonctions.php';
 
-    // TRAITEMENT DU FORMULAIRE DU CONTACT
+// Invocation des fichiers de Fonctions et la Connexion a la BDD
+
+require_once 'inc/log_bdd.php';
+require_once 'inc/fonctions.php';
+
+// TRAITEMENT DU FORMULAIRE DU CONTACT
 
 
 if (!empty($_POST)) {
@@ -110,8 +113,7 @@ if (!empty($_POST)) {
 			<img
 			src="img/focus-horizontal.svg"
 			alt="un triangle aux trois côtés égaux"
-			height="100px"
-			width="200px"/>
+			style="width: 200px; height: 100px;"/>
 		
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -275,14 +277,14 @@ if (!empty($_POST)) {
 
 					Ils vont devoir survivre et ne compter que sur eux-mêmes alors qu'ils sont poursuivis par le seigneur Nicholas, haut membre de l'Inquisition qui tente de capturer Hugo pour le livrer au Grand Inquisiteur, Vitalis Bénévent. 
 					</p>
-				</div>
 			</div>
        </main>
 
-	   <section class="container">
-		<h2>Bande Annonce du Jeu</h2>
-		<div class="row">
-			<iframe width="800" height="560" src="https://www.youtube-nocookie.com/embed/8AOwiMciL1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	    <section class="container">
+			<h2>Bande Annonce du Jeu</h2>
+				<div class="row">
+					<iframe width="800" height="560" src="https://www.youtube-nocookie.com/embed/8AOwiMciL1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>		
 		</section>
 		<hr>
 
@@ -457,9 +459,7 @@ if (!empty($_POST)) {
                                 <div class="text-center mb-3">
                                 </div>
                             </div>
-                            <!-- Submit Button-->
-                            <!-- <button class="g-recaptcha btn btn-info" data-sitekey="" data-callback='onSubmit' data-action='submit'>Envoyez</button><br> -->
-                            <br/>
+
                             <button class="btn btn-info" type='submit'>Envoyez</button>
                         </form>
 				<div class="row"><?php echo $confirmation, $erreur ?></div>
@@ -481,7 +481,6 @@ if (!empty($_POST)) {
 
 					<a href="https://fr-fr.facebook.com/APlagueTale/" target="_blank" class="reseau" rel="nofollow"><i class="fa-brands fa-facebook"> Facebook </i></a>
 				</div>	
-				</ul>	
 		</div>
 		
 			<p><i class="fa-solid fa-triangle-exclamation"></i> Ce site est une fan conception réalisé par des étudiants dans le cadre de leur pédagogie et il n'est donc pas officiel. <i class="fa-solid fa-triangle-exclamation"></i><br> Je vous invite à vous rendre sur la page officiel du Jeu<a href="https://www.focus-entmt.com/fr/games/a-plague-tale-innocence" target="_blank" style="text-decoration: none;" rel="nofollow"> Focus Entertainement</a></p>
