@@ -33,6 +33,7 @@ if (!empty($_POST)) {
     if (empty($erreur)) {
 
     
+	// htmlspecialchars pour la sécurité
     $_POST['nom'] = htmlspecialchars($_POST['nom']);
     $_POST['objet'] = htmlspecialchars($_POST['objet']);
     $_POST['mail'] = htmlspecialchars($_POST['mail']);
@@ -126,33 +127,13 @@ if (!empty($_POST)) {
 			  <li class="nav-item">
                 <a class="nav-link text-white" href="index.php#gameplay">Gameplay</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link text-white" href="index.php#contact">Contact</a>
-              </li>
-            </ul>
-			<!-- Button trigger modal -->
-			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+			  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
 			Contact
 			</button>
+            </ul>
+			<!-- Button trigger modal -->
+			<!-- Button trigger modal -->
 
-			<!-- Modal -->
-			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-				<div class="modal-header">
-					<h1 class="modal-title fs-5" id="exampleModalLabel">Contact</h1>
-					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				</div>
-				<div class="modal-body">
-					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo distinctio ex quibusdam ratione error facere maiores quod dolorem eius earum expedita, beatae cupiditate deleniti recusandae porro veniam similique autem sed.
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
-					<button type="button" class="btn btn-primary">Envoyez</button>
-				</div>
-				</div>
-			</div>
-			</div>
 
             <a  class="btn btn-warning" href="index.php#boutique" class="navbar-text" role="button">
              Achetez le Jeu
@@ -445,7 +426,65 @@ if (!empty($_POST)) {
 
 
   <!-- Contact Section-->
-  <section class="page-section" id="contact">
+  <!-- <section class="page-section" id="contact">
+	<div class="container">
+		<h3 class="text-center" style="padding-top: 30px;">Merci de votre visite !</h3>
+		<h5 class="lead" style="padding-top: 10px;">N'hésitez pas à nous contacter</h5>
+		<div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7">
+                        <form method="POST" action="">
+                             Name input
+                            <div class="form mb-5">
+                                <label for="nom">Nom</label>
+                                <input class="form-control" id="nom" name="nom" type="text"/>
+                            </div>
+
+                            <div class="form mb-3">
+                                <label for="objet">Objet *</label>
+                                <input class="form-control" id="objet" name="objet" type="text"/>
+                            </div>
+                            Email address input
+                            <div class="form mb-3">
+                                <label for="email">Adresse Mail *</label>
+                                <input class="form-control" id="email" type="email" name="mail"/>
+                            </div>
+                            Phone number input
+                            <div class="form mb-3">
+                                <label for="tel">Téléphone</label>
+                                <input class="form-control" id="telephone" name="telephone" type="tel"/>
+
+                            </div>
+                             Message input
+                            <div class="form mb-3">
+                                <label for="message">Message *</label>
+                                <textarea class="form-control" id="message" name="message" style="height: 10rem"></textarea>
+                            </div>
+        
+                            <div class="d-none" id="submit">
+                                <div class="text-center mb-3">
+                                </div>
+                            </div>
+
+                            <button class="btn btn-info" type='submit'>Envoyez</button>
+                        </form>
+				<div class="row"></div>
+			</div>
+		</div>
+	</div>
+  </section> -->
+		<footer class="container-fluid bg-black">
+
+
+			<!-- Modal -->
+			<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title text-black" id="staticBackdropLabel">Contact</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body bg-dark">
+				<section class="page-section" id="contact">
 	<div class="container">
 		<h3 class="text-center" style="padding-top: 30px;">Merci de votre visite !</h3>
 		<h5 class="lead" style="padding-top: 10px;">N'hésitez pas à nous contacter</h5>
@@ -454,7 +493,7 @@ if (!empty($_POST)) {
                         <form method="POST" action="">
                             <!-- Name input-->
                             <div class="form mb-5">
-                                <label for="nom">Nom</label>
+                                <label for="nom">Nom *</label>
                                 <input class="form-control" id="nom" name="nom" type="text"/>
                             </div>
 
@@ -491,7 +530,13 @@ if (!empty($_POST)) {
 		</div>
 	</div>
   </section>
-		<footer class="container-fluid bg-black">
+  </div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+				</div>
+				</div>
+			</div>
+			</div>
 			<p>
 				<strong>&copy; Sleyter MONTEIRO & Myriam FARIDI</strong> - Etudiants en Cybersécurité - Guardia
 				Cybersecurity School
