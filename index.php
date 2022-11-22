@@ -130,6 +130,30 @@ if (!empty($_POST)) {
                 <a class="nav-link text-white" href="index.php#contact">Contact</a>
               </li>
             </ul>
+			<!-- Button trigger modal -->
+			<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+			Contact
+			</button>
+
+			<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Contact</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo distinctio ex quibusdam ratione error facere maiores quod dolorem eius earum expedita, beatae cupiditate deleniti recusandae porro veniam similique autem sed.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+					<button type="button" class="btn btn-primary">Envoyez</button>
+				</div>
+				</div>
+			</div>
+			</div>
+
             <a  class="btn btn-warning" href="index.php#boutique" class="navbar-text" role="button">
              Achetez le Jeu
 			</a>
