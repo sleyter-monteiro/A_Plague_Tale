@@ -1,6 +1,6 @@
 // CONTRÔLE DU FORMULAIRE REGEX
 
-alert('Test de liaison JS')
+alert('Test de liaison JS');
 
      // controle du formulaire d'inscription avec une fonction
 
