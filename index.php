@@ -494,17 +494,17 @@ if (!empty($_POST)) {
                             <!-- Name input-->
                             <div class="form mb-5">
                                 <label for="nom">Nom *</label>
-                                <input class="form-control" id="nom" name="nom" type="text"/>
+                                <input class="form-control" id="nom" name="nom" type="text" required/>
                             </div>
 
                             <div class="form mb-3">
                                 <label for="objet">Objet *</label>
-                                <input class="form-control" id="objet" name="objet" type="text"/>
+                                <input class="form-control" id="objet" name="objet" type="text" required/>
                             </div>
                             <!-- Email address input-->
                             <div class="form mb-3">
                                 <label for="email">Adresse Mail *</label>
-                                <input class="form-control" id="email" type="email" name="mail"/>
+                                <input class="form-control" id="email" type="email" name="mail" required/>
                             </div>
                             <!-- Phone number input-->
                             <div class="form mb-3">
@@ -515,7 +515,7 @@ if (!empty($_POST)) {
                             <!-- Message input-->
                             <div class="form mb-3">
                                 <label for="message">Message *</label>
-                                <textarea class="form-control" id="message" name="message" style="height: 10rem"></textarea>
+                                <textarea class="form-control" id="message" name="message" required style="height: 10rem"></textarea>
                             </div>
         
                             <div class="d-none" id="submit">
