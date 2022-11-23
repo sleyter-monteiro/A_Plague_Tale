@@ -490,7 +490,7 @@ if (!empty($_POST)) {
 		<h5 class="lead" style="padding-top: 10px;">N'hésitez pas à nous contacter</h5>
 		<div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <form method="POST" action="">
+                        <form method="POST" id="contactForm" action="#">
                             <!-- Name input-->
                             <div class="form mb-5">
                                 <label for="nom">Nom *</label>
