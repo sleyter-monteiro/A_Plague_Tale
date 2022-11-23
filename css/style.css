@@ -28,6 +28,10 @@ header {
 	width: 35%;
 }
 
+.btn-contact {
+  margin: auto;
+}
+
 
 
 main {
@@ -81,4 +85,5 @@ h2 {
 
 footer {
     text-align: center;
+    margin: 0%;
 }

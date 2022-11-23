@@ -127,13 +127,11 @@ if (!empty($_POST)) {
 			  <li class="nav-item">
                 <a class="nav-link text-white" href="index.php#gameplay">Gameplay</a>
               </li>
-			  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            </ul>
+			
+			<button type="button" class="btn btn-dark btn-contact" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
 			Contact
 			</button>
-            </ul>
-			<!-- Button trigger modal -->
-			<!-- Button trigger modal -->
-
 
             <a  class="btn btn-warning" href="index.php#boutique" class="navbar-text" role="button">
              Achetez le Jeu
@@ -564,10 +562,10 @@ if (!empty($_POST)) {
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
 		crossorigin="anonymous"></script>
-
+<!-- 
 		<script>
 			if ( window.history.replaceState ) {
         window.history.replaceState( null, null, window.location.href );
     }
-		</script>
+		</script> -->
 </html>
