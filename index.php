@@ -66,6 +66,7 @@ if (!empty($_POST)) {
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="robots" content="index">
 		<meta name="author" content="Sleyter MONTEIRO & Myriam FARIDI">
 		<meta name="description" content="Vivez le récit déchirant aux multiples récompenses d’Amicia et de son petit frère
 				Hugo, livrés à eux-mêmes au cœur des heures les plus sombres de l’Histoire.
@@ -74,7 +75,6 @@ if (!empty($_POST)) {
 				Submergés par l’adversité, ils devront lutter pour survivre et trouver leur rôle
 				dans ce monde impitoyable.">
 		<title>A Plague Tale : Innocence</title>
-		<meta name="robots" content="index, follow">
 		<!-- Favicon -->
 		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
