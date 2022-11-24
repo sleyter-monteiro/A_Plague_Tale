@@ -23,4 +23,6 @@ function executeRequete($requete, $parametres = array()) {  // utile pour toutes
 
 
 
+
+
 ?>

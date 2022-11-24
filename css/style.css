@@ -1,7 +1,13 @@
+:root {
+
+  --noir-intense : #000000;
+  --jaune : #ffcd1e;
+  --gris-sombre : #21242c;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #21242C;
-  
 }
 
 
@@ -13,7 +19,7 @@ header {
 
 #logo {
 	width: 25%;
-    float: left;
+  float: left;
 	padding-bottom: 30px;
     /* marge intérieure de l'élément padding = rembourrage */
     /* l'aspect de la boite */
@@ -21,7 +27,7 @@ header {
 
 
 
-#aplague { /* on ne cible que cette image, on la trouve par son chemin dans le fichier html */
+#aplague { 
 	display: block;
 	padding-bottom: 60px;
 	margin: auto;
@@ -29,14 +35,16 @@ header {
 }
 
 .btn-contact {
-  margin: auto;
+  margin: 10px;
 }
 
 
 
 main {
+  background-color: var(--noir-intense);
   box-sizing: border-box;
-  border: solid #1868d0 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border: solid var(--noir-intense) 10px;
   border-radius: 10px;
   padding: 5px;
   margin: 50px;
@@ -55,6 +63,11 @@ p {
 section {
   text-align: center;
   padding-bottom: 30px;
+}
+
+.personnage {
+  padding: 20px;
+  margin: 0%;
 }
 
 button {
@@ -85,5 +98,4 @@ h2 {
 
 footer {
     text-align: center;
-    margin: 0%;
 }
