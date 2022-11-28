@@ -3,7 +3,7 @@
     $host = 'localhost';// le chemin vers le serveur de données
     $database = 'a_plague_tale';// le nom de la BDD
     $user = 'root';// le nom d'utilisateur pour se connecter
-    $psw = '';// mdp Database / VIDE POUR PC & root pour MAC
+    $psw = 'root';// mdp Database / VIDE POUR PC & root pour MAC
 
     // Retourne une instance de PDO. La signature de la fonction getInstancePDO implique que l'objet doit être nécessairement de type PDO
     // Sinon une erreur sera levée
